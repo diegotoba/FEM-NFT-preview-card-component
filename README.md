@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/diegotoba/FEM-NFT-preview-card-component](https://github.com/diegotoba/FEM-NFT-preview-card-component)
+- Live Site URL: [https://brave-keller-57dc39.netlify.app/](https://brave-keller-57dc39.netlify.app/)
 
 ### Built with
 
