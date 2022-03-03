@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+--primary-soft-blue: hsl(215, 51%, 70%);
+--primary-cyan: hsl(178, 100%, 50%);
+--mainBG: hsl(217, 54%, 11%);
+--cardBG: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%)
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: var(--mainBG);
+}
+
+main {
+  background-color: var(--cardBG);
+  border-radius: 20px;
+  margin: 5rem auto ;
+  padding: 1.5rem;
+  width: fit-content;
+  font-family: Outfit, open-sans;
+}
+
+.nft-card a:hover, a:active {
+  color: var(--primary-cyan);
+}
+
+.nft-picture {
+  position: relative;
+}
+
+.nft-image {
+  max-width: 325px;
+  border-radius: 20px;
+}
+
+.nft-image-active{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #00fff77a;
+  opacity: 0;
+}
+
+.nft-image-active-icon {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+}
+
+.nft-image-active:hover {
+  opacity: 1;
+}
+
+.nft-name {
+  font-size: 1.5rem;
+}
+
+.nft-name a {
+  color: var(--white);
+  text-decoration: unset;
+}
+
+.nft-copy {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--primary-soft-blue);
+  width: 25ch;
+}
+
+.nft-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-data-price {
+  color: var(--primary-cyan);
+  font-weight: 600;
+}
+
+.nft-data-time {
+  color: var(--primary-soft-blue);
+}
+
+hr {
+  border-color: #fff1;
+  margin: 2rem auto;
+}
+
+.user-info {
+display: flex;
+align-items: center;
+}
+
+.user-info-avatar {
+  width: 1.5rem;
+  border-radius: 500px;
+  border: 2px solid white;
+}
+
+.user-info-credits {
+ margin-left: 1rem;
+ color: var(--primary-soft-blue);
+}
+
+.user-info-credits a {
+ text-decoration: none;
+ color: var(--white);
+}
