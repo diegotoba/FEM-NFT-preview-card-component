@@ -58,6 +58,22 @@ I got to learn a way to make an image hover overlay, wich I managed to do like t
   opacity: 1;
 }
 
+Later, advice from the FrontEndMentor community gave me a better looking solution, making the hover effect CSS only:
+
+.nft-picture::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+.nft-picture:hover::after, .nft-picture:active::after {
+  background: #00fff77a url(./images/icon-view.svg) center/3rem no-repeat;
+}
 ### Useful resources
 
 https://www.w3schools.com/howto/howto_css_image_overlay.asp
